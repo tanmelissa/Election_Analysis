@@ -38,31 +38,31 @@ The analysis of the election show that:
 
 ## Election-Audit Summary
 If the csv with election data is in the same format as the one used for this analysis, this script can be used for any congressional election by changing the following items:
-- The path to load the file with election data
+- The path to load the file with election data.
 
-<img width="377" alt="image" src="https://user-images.githubusercontent.com/102273449/168702698-cc3fcc66-e103-401f-b76a-5f4ab4d26339.png">
+    <img width="377" alt="image" src="https://user-images.githubusercontent.com/102273449/168702698-cc3fcc66-e103-401f-b76a-5f4ab4d26339.png">
 
-- The path to save the file that you will write the election results 
+- The path to save the file that you will write the election results .
 
-<img width="383" alt="image" src="https://user-images.githubusercontent.com/102273449/168702771-30b9cefa-e092-4c8e-a885-66d2d5ed8778.png">
+    <img width="383" alt="image" src="https://user-images.githubusercontent.com/102273449/168702771-30b9cefa-e092-4c8e-a885-66d2d5ed8778.png">
 
 This script could be used for larger elections (e.g. a presidential election) as well by changing the following items in addition to the changes mentioned previously:
-- Change the name of the county lists and dictionaries to be called state_list and state_votes
+- Change the name of the county lists and dictionaries to be called state_list and state_votes.
 
-<img width="319" alt="image" src="https://user-images.githubusercontent.com/102273449/168703076-8b15c338-a73e-4365-b1ed-f4576d915fdc.png">
+    <img width="319" alt="image" src="https://user-images.githubusercontent.com/102273449/168703076-8b15c338-a73e-4365-b1ed-f4576d915fdc.png">
 
-- Changing the variables for largest turnout to be called state instead of county
+- Changing the variables for largest turnout to be called state instead of county.
 
-<img width="338" alt="image" src="https://user-images.githubusercontent.com/102273449/168703159-1d05df5a-b2c0-488b-8d19-fdc06ebad9b3.png">
+    <img width="338" alt="image" src="https://user-images.githubusercontent.com/102273449/168703159-1d05df5a-b2c0-488b-8d19-fdc06ebad9b3.png">
 
 - Changing the largest_county_results to say "Largest State Turnout"
 
-<img width="347" alt="image" src="https://user-images.githubusercontent.com/102273449/168703296-d9e763df-64be-45aa-be66-3c56f010b2c3.png">
+    <img width="347" alt="image" src="https://user-images.githubusercontent.com/102273449/168703296-d9e763df-64be-45aa-be66-3c56f010b2c3.png">
 
-- Adding a section that would could electoral votes and could calculate the winner based on that and compare it to the winner based on popular vote
+- Adding a section that would count electoral votes and could calculate the winner based on that.
 
 If the csv with the election data is in a different format, the following code will need to be updated to reflect those changes:
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/102273449/168703611-cbd6f80b-43f4-4c2f-81de-1697bb775d96.png">
+   <img width="250" alt="image" src="https://user-images.githubusercontent.com/102273449/168703611-cbd6f80b-43f4-4c2f-81de-1697bb775d96.png">
 
-<img width="260" alt="image" src="https://user-images.githubusercontent.com/102273449/168703629-eec3454a-c240-4bd3-bebd-846633c78118.png">
+   <img width="260" alt="image" src="https://user-images.githubusercontent.com/102273449/168703629-eec3454a-c240-4bd3-bebd-846633c78118.png">
